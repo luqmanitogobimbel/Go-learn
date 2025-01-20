@@ -4,6 +4,7 @@ import "github.com/gin-gonic/gin"
 import "github.com/luqmanito/go-learn/models"
 import "net/http"
 
+//tes
 func Index(c *gin.Context) {
 	var users []models.User
 	if err := models.DB.Find(&users).Error; err != nil {
